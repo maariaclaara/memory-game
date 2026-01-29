@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo da Memória</title>
+  <link rel="stylesheet" href="./src/css/style.css" />
+</head>
+<body>
+
+  <div id="hud">
+    <h2>Status do Jogo</h2>
+    <table>
+      <tr>
+        <th>Tempo</th>
+        <th>Tentativas</th>
+      </tr>
+      <tr>
+        <td id="timer">0s</td>
+        <td id="attempts">0</td>
+      </tr>
+    </table>
+    <div id="result">Pares encontrados: 0</div>
+  </div>
+
+  <div class="board"></div>
+
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
